@@ -1,0 +1,52 @@
+.container {
+	background-image: url("../images/wall.png");
+}
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	height: 90px;
+	background: #000;
+	color: #fff;
+
+	border-bottom: 5px solid gold;
+}
+
+.time-container h2:nth-child(2),
+.score-container h2:nth-child(2) {
+	margin-top: 10px;
+}
+
+.lives {
+	display: flex;
+	align-items: center;
+}
+
+.panel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	margin-top: 1rem;
+	height: 100vh;
+}
+
+.panel-row {
+	display: flex;
+}
+
+.tile {
+	height: 150px;
+	width: 150px;
+
+	border: 1px solid black;
+
+	background-color: #1aeaa5;
+}
+
+.ralph {
+	background-image: url("../images/ralph.png");
+	background-size: cover;
+}
